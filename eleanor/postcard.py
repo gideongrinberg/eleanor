@@ -8,7 +8,7 @@ import warnings
 import pandas as pd
 import copy
 from astropy.stats import SigmaClip
-from photutils import MMMBackground
+from photutils.background import MMMBackground
 from .mast import crossmatch_by_position
 from urllib.request import urlopen
 
